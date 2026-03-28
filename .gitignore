@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Virtual env
+venv/
+.env/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Audio files (your project)
+storage/audio/
+*.wav
+
+# Transcripts (optional)
+storage/transcripts/
+
+# Docker
+*.tar
+
+# Secrets
+.env
