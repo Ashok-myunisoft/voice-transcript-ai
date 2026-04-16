@@ -14,9 +14,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Expose port (if FastAPI or similar)
-EXPOSE 8000
+EXPOSE 8027
 
 # Run app
 # CMD ["python", "run.py"]
 
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8027"]
