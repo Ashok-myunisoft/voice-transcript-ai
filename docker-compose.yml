@@ -1,0 +1,18 @@
+services:
+  voice-transcript-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: voice-transcript-api
+    env_file:
+      - .env
+    environment:
+      STORAGE_DIR: /data
+    ports:
+      - "8070:8070"
+    volumes:
+      - meeting-data:/data
+    restart: unless-stopped
+
+volumes:
+  meeting-data:

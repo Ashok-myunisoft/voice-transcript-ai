@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+tmp4rg_qe_g/
+
+# Virtual env
+venv/
+.env
+.env.example
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Audio files (your project)
+storage/audio/
+app/storage/
+*.wav
+
+# Transcripts (optional)
+storage/transcripts/
+
+# Docker
+*.tar
+
+# Secrets
+.env
+.pytest_cache/
+pytest-cache-files-*/
